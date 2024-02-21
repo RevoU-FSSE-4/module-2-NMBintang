@@ -1,21 +1,26 @@
 * {
     margin:0px;
+    padding: 0px;
 }
 .container {
-    max-width: 1366px ;
+    max-width: 100% ;
     border: 1px solid black;
 }
 .header {
-    max-width: 1366px ;
+    max-width: 100%;
     height: 75px;
     background-color: aqua;
     position: sticky;
     top: 0px;
-    /* justify-content: center; */
-    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
 }
-#navbar {
-    /* justify-content: center; */
+#container-logo {
     display: flex;
 }
 #container-nav {
@@ -28,9 +33,14 @@ a {
     color: black;
     text-decoration: none;
 }
-
+main {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 .carousel {
-    height: 250px;
+    width: auto;
+    height: 450px;
 }
 #tittle{
     font-size: 2em;
@@ -51,16 +61,31 @@ a {
     height: 150px;
     padding: 10px;
 }
-.galery{
+.galery {
     display: grid;
-    grid-template-columns: repeat(3, 250px);
-	grid-template-rows: repeat (3, 250px);
+    grid-template-columns:450px 350px 350px;
+	grid-template-rows: 400px 400px 400px;
     justify-content: center;
     gap: 10px;
     padding: 20px 0px;
 }
 .galery-card {
     border: solid 1px black;
-    height: 250px;
     width: 250px;
+    height: 250px;
+    width: auto;
+    height: auto;
+}
+#galery-card1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+#galery-card2 {
+    grid-column: 2 / span 2;
+    grid-row: 1 ;
+    
+}
+#galery-card5 {
+    grid-column: 1 / span 2;
+    grid-row: 3 ;
 }
