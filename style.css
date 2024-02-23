@@ -9,7 +9,7 @@
 .header {
     max-width: 100%;
     height: 75px;
-    background-color: black;
+    background-color: #fffff0;
     position: sticky;
     top: 0px;
     display: flex;
@@ -18,10 +18,15 @@
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    z-index: 100;
 }
 #container-logo h1 {
     display: flex;
-    text-shadow: gold 2px 0 10px;
+    text-shadow: black 2px 0 10px;
+}
+h1 {
+    color: gold;
+    font-size: 2em;
 }
 #container-nav {
     display: flex;
@@ -31,7 +36,7 @@
     cursor: pointer;
 }
 ul li a{
-    color: gold;
+    color: black;
     transition: margin-right 1s;
 }
 ul li a:hover{
@@ -60,27 +65,34 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    padding-top: 10px;
+    gap: 75px;
 }
 .package-card {
     border: solid 1px black;
-    width: 300px;
-    height: 150px;
+    width: 15vw;
+    height: 40vh;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
+.package-card p{ 
+    text-align: center;
+}
+.package-card ul li{
+    padding-left: 10px;
+} 
 .galery {
     display: grid;
-    grid-template-columns:450px 350px 350px; /* cek size*/
-	grid-template-rows: 400px 400px 400px; /* cek size*/
+    grid-template-columns:25vw 25vw 25vw; /* cek size*/
+	grid-template-rows: 50vh 50vh 50vh; /* cek size*/
     justify-content: center;
     gap: 10px;
     padding: 20px 0px;
 }
 .galery-card {
     border: solid 1px black;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .galery .galery-card img {
     width: 100% ;
@@ -135,4 +147,16 @@ main {
 button [type="submit"]:hover {
     background-color: black;
     color: gold;
+}
+/* footer design */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.footertext {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
 }
