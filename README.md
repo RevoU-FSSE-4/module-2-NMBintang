@@ -1,1 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-vSzXkEt)
+# HOW TO DEPLOY YOUR PROJECT ON NETLIFY
+
+1. Go to https://app.netlify.com/signup
+
+![netlify-sign-up-page](/assets/netlify-sign-up.png)
+
+2. Sign-up using GitHub account (Recomended)
+
+
