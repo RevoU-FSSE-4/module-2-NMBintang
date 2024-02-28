@@ -4,7 +4,7 @@
 }
 .container {
     max-width: 100% ;
-    background-color: #EBE3D5;
+    background-color: #fefcf6;
     /* border: 1px solid black; */
     color: black;
 }
@@ -38,13 +38,14 @@ h1 {
     cursor: pointer;
 }
 ul li{
-    border: 1px solid #ffd800;
+    border: 3px solid #ffd800;
+    box-shadow: 3px 0px 5px  black;
     padding: 0px 1em;
     transition: border-radius 1s;
 }
 ul li:hover{
     border-radius: 50px;
-    border: 1px solid #ffd800;
+    border: 3px solid #ffd800;
 }
 a {
     color: black;
