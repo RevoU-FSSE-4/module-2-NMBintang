@@ -185,7 +185,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 20vw;
-    background-color: rgba(256 , 256,256,0.5);
     backdrop-filter: blur(10px) ;
     /* height: 20vh; */
 }

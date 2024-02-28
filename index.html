@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mediaquery.css">
     <title>Document</title>
 </head>
 
@@ -17,7 +18,7 @@
     <header class="container header">
             <div id="container-logo">
                 <img src="" alt="">
-                <h1 id="container-tittle"> LOGO </h1>
+                <h1 id="container-tittle">ExGeo</h1>
             </div>
             <nav>
                 <ul id="container-nav">
@@ -27,6 +28,7 @@
                     <li><a href="#newsLetters">FAQ</a></li>
                     <button class="dark-mode" onclick="myFunction()">Toggle dark mode</button>
                 </ul>
+                <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
             </nav>
     </header>
 
@@ -69,9 +71,9 @@
         <h3 class="container" id="tittle">BE PART OF US BY CONTRIBUTING</h3>
         <div class="container">
                 <picture class="responsive-img">
-                    <source class="responsive-img-grayscale" media="(max-width :450px)" srcset="https://meramuda.com/wp-content/uploads/2017/09/tumblr_ms21cuNeJb1qa0ri9o1_1280.jpg" >
+                    <source class="responsive-img-grayscale" media="(max-width :650px)" srcset="https://meramuda.com/wp-content/uploads/2017/09/tumblr_ms21cuNeJb1qa0ri9o1_1280.jpg">
                     <source class="responsive-img-grayscale" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Wildlife_photography.jpg/800px-Wildlife_photography.jpg">
-                    <img class="responsive-img-grayscale" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Wildlife_photography.jpg/800px-Wildlife_photography.jpg" style="width: auto;">
+                    <img class="responsive-img-grayscale" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Wildlife_photography.jpg/800px-Wildlife_photography.jpg">
                 </picture>
         </div>
 
@@ -84,7 +86,7 @@
                     <input type="number" placeholder="Phone" required><br>
                     <input type="number" placeholder="Number of guests"><br>
                     <input type="datetime-local">
-                    <textarea style="height: 100px; width: 20vw;" placeholder="Any request or comments you may have about the event"></textarea>
+                    <textarea style="height: 100px; width: 250px;" placeholder="Any request or comments you may have about the event"></textarea>
                     <div id="newsletters">Send Newsletters<input type="checkbox"></div>
                     <button name="subject" type="submit" value="form">START PLANNING YOUR ADVENTURE</button><br><br>
                 </form>
@@ -113,10 +115,9 @@
         </footer>
     </main>
     <script>
-        function myFunction() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-        }
-        </script>
+                function toggleMenu() {
+            const navList = document.querySelector('#container-nav');
+            navList.classList.toggle('active');}
+    </script>
 </body>
 </html>
