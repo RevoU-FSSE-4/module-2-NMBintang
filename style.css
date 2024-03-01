@@ -69,13 +69,14 @@ main {
     display: flex;
     animation: carousel 50s infinite;
     position: relative;
+    object-fit: contain;
 }
 .carousel-img {
     width: 100vw;
     height: 82vh;
 }
 @keyframes carousel {
-    from {left: -100%;}
+    from {left:-150%;}
     to {left:100%;}
 }
 #tittle{
@@ -112,7 +113,7 @@ main {
     color: black;
 } 
 #package-card1 {
-    background-image: url(https://facts.net/wp-content/uploads/2023/06/Red-blue-atom-model.jpeg);
+    background-image: url(https://lh5.googleusercontent.com/cAra0MWV68sySBkO2Z_JWlRhDYumQ-zcEaNThy1LFGRsIY_c9vPLAnJwp9_jjzCBIMNdhvodLyglyYwEI3p8auFuG6-6YPtaF1QIF7fyRQzG1jdf2PVl_tty1_azM7uJDjCBCZqmwoIy5c4rnuaATR8);
     background-size: cover;
     background-position: center;
 }
@@ -122,7 +123,7 @@ main {
     background-position: center;
 }
 #package-card3 {
-    background-image: url(https://lh5.googleusercontent.com/cAra0MWV68sySBkO2Z_JWlRhDYumQ-zcEaNThy1LFGRsIY_c9vPLAnJwp9_jjzCBIMNdhvodLyglyYwEI3p8auFuG6-6YPtaF1QIF7fyRQzG1jdf2PVl_tty1_azM7uJDjCBCZqmwoIy5c4rnuaATR8);
+    background-image: url(https://www.shutterstock.com/image-photo/balinese-girl-performing-traditional-dress-600nw-1769736218.jpg);
     background-size: cover;
     background-position: center;
 }
