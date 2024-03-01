@@ -77,3 +77,6 @@ ExGeo- Explore, Educate, Preserve.
 6. You need to wait approximately 24 hour again for niagahoster registering and make connection with Netlify DNS
 
 7. now you can accsess [www.exgeo.site](www.exgeo.site)
+
+
+Note : if you can't access exgeo.site, probably niagahoster still working on it, you can access website using [this link](https://idyllic-salmiakki-4b30a5.netlify.app/)
