@@ -67,20 +67,13 @@
         font-style: normal;
     }
     .carousel {
+        background-image: url(https://i.guim.co.uk/img/media/f75f84778dc6c20e519223cdd39ec0f974f2c9b0/0_239_3583_2150/master/3583.jpg?width=1900&dpr=1&s=none);
+        background-size: cover;
+        background-position: center;
+        filter: sepia(100%);
         width: auto;
-        height: 50vh;
+        height: 82vh;
         display: flex;
-        animation: carousel 50s infinite;
-        position: relative;
-    }
-    .carousel-img {
-        width: 100vw;
-        height: 50vh;
-        
-    }
-    @keyframes carousel {
-        from {left: -100%;}
-        to {left:100%;}
     }
     #tittle{
         font-size: 2em;

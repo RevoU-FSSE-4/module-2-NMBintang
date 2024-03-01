@@ -1,6 +1,23 @@
-# HOW TO DEPLOY YOUR PROJECT ON NETLIFY AND CUSTOM DOMAIN
+# ExGeo
+![exgeo-preview](/assets/exgeo-preview.png)
 
-## Deploy using netlify
+At Exgeo (Explorer's Geographic), we are passionate about wildlife, history, and culture. Our mission is to share knowledge and raise awareness about the rich diversity of our planet's natural and cultural heritage.
+
+Founded by a team of dedicated enthusiasts, ExGeo strives to make a difference through education, exploration, and conservation. We believe that understanding and appreciating the world around us is the first step towards protecting it for future generations.
+
+Through our platform, we offer a variety of resources including articles, research, and firsthand experiences, all aimed at fostering a deeper connection to the wonders of nature and human civilization.
+
+In addition to providing information and insights, we also organize wildlife trips for adventurous souls who seek to explore the beauty of our planet up close. By booking your journey through us, not only do you embark on an unforgettable adventure, but you also contribute directly to our conservation efforts.
+
+For those who prefer to support from afar, we welcome direct donations to further our mission of conservation, education, and exploration.
+
+Join us in our quest to preserve and celebrate the magnificence of wildlife, history, and culture. Together, we can make a difference.
+
+ExGeo- Explore, Educate, Preserve.
+
+## HOW TO DEPLOY YOUR PROJECT ON NETLIFY AND CUSTOM DOMAIN
+
+### Deploy using netlify
 
 1. Go to https://app.netlify.com/signup
 
@@ -35,7 +52,7 @@
 
 ![netlify-deploy-finish](/assets/netlify-deployed.png)
 
-## Custom Domain
+### Custom Domain
 
 1. Click Costum Domain
 
@@ -49,8 +66,14 @@
 
 ![custom-domain-waitingDNS](/assets/netlify-custom-domain-waitingDNS.png)
 
-4.
+4. You can click "Awaiting External DNS" to check if it's updated or not, sometime it's still written "Awaiting Externak DNS" but the DNS already updated
 
-5. Enter 4 DNS address to your custom domain
+![custom-domain-DNS-configuration](/assets/netlify-custom-domain-DNS-configuration.png)
 
-![niagahoster-update-DNS](/assets/niagahoster-update-DNS.png)
+5. Copy 4 DNS address to your custom domain and save
+
+![niagahister-copy-and-update-DNS](/assets/niagahoster-update-DNS2.png)
+
+6. You need to wait approximately 24 hour again for niagahoster registering and make connection with Netlify DNS
+
+7. now you can accsess [www.exgeo.site](www.exgeo.site)
